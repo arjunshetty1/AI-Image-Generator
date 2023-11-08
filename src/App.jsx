@@ -1,8 +1,9 @@
 import { NextUIProvider } from "@nextui-org/react";
+import ImageGenerator from "./Components/ImageGenerator/ImageGenerator";
 const App = () => {
   return (
     <NextUIProvider>
-      <div className="bg-slate-600">App</div>
+      <ImageGenerator />
     </NextUIProvider>
   );
 };
